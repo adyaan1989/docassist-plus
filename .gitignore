@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data (too large for git)
+chroma_db/
+uploads/
+
+# Node
+frontend/node_modules/
+
+# OS
+.DS_Store
+*.log
